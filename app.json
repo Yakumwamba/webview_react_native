@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "org.thutotime.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
