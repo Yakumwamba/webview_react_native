@@ -6,7 +6,7 @@ import WebViewLoader from "./WebViewLoader";
 import { Button, View } from "react-native";
 
 function HomeScreen({ navigation }) {
-  var url = "https://github.com/sndpwrites";
+  var url = "https://thutotime.com";
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Button
@@ -20,10 +20,9 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="WebView" component={WebViewLoader} />
+    <NavigationContainer >
+      <Stack.Navigator  headerMode="false">
+        <Stack.Screen name="WebViesdsdw" component={WebViewLoader}  />
       </Stack.Navigator>
     </NavigationContainer>
   );
