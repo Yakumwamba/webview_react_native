@@ -1,21 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
 
-export default function App() {
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import WebViewLoader from "./WebViewLoader";
+import { Button, View } from "react-native";
+
+function HomeScreen({ navigation }) {
+  var url = "https://github.com/sndpwrites";
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <Button
+        title="Start Thuto Time"
+        onPress={() => navigation.navigate("WebView", { url: url })}
+      />
     </View>
   );
 }
+const Stack = createStackNavigator();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="WebView" component={WebViewLoader} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
