@@ -1831,6 +1831,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.6.tgz#c7f2ac187c1f25aa8c30d11baa8f4398eca3bb84"
   integrity sha512-PpMoeXwPUoldCRKDuSi+zK5rT+sJTW6ri6RdGPkSKRzU77Q1d9IaR0O5IKvBj0XSdL3p+dcOa05gk35aGDffBQ==
 
+"@react-native-community/netinfo@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-6.0.2.tgz#3b61757c46d0f387815d42b651bbee1eb998a385"
+  integrity sha512-HbVIv6p+VAzSqALkfKKNbtSy0TneL7EILIqxiOjt/5weVdTuZ88NRyPNQAZBh6W8QYirXJo3f00ryMk9iLs7gQ==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
@@ -3452,6 +3457,18 @@ expo-background-fetch@~10.0.3:
     expo-modules-core "~0.4.4"
     expo-task-manager "~10.0.3"
 
+expo-battery@~6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/expo-battery/-/expo-battery-6.0.3.tgz#bde6091225bf479dd3d4bd58291acbee73a7b492"
+  integrity sha512-L2/jkTXxFzLYlQU5/SB/j9TJu4nqYu3d215fNPFi8ZOI7e4Omc9hbuBgxZdnP923TYRQIUKP+37Rd3e8nQq7PA==
+  dependencies:
+    expo-modules-core "~0.4.4"
+
+expo-cellular@~4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/expo-cellular/-/expo-cellular-4.0.0.tgz#ef450ab8e8fcd8a0935eb7515668ba99b59271c1"
+  integrity sha512-pMmBC/QvkpKHwTF7nmwh514SA2rtmADNWsy1l5ygFOIhWqLut43gA2Qtsz6ZqCXukqde4PferMpUeuoHo7HFXQ==
+
 expo-constants@~12.1.2, expo-constants@~12.1.3:
   version "12.1.3"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-12.1.3.tgz#bec48a42a7760b010450961c209bb4b1158b9cd6"
@@ -3525,6 +3542,13 @@ expo-modules-core@~0.4.4, expo-modules-core@~0.4.8:
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
+
+expo-network@~4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/expo-network/-/expo-network-4.0.3.tgz#21d7317b004ae8d1b16b56fd60bc3eca377198e3"
+  integrity sha512-9MBxNcaN2O2YinJa1UMNIoCaQkDA74roMLF1Gv/VsfysCd36qHTDH0m3mNUb2NNWAd+5b8O91Q6PLRGz1AJtog==
+  dependencies:
+    expo-modules-core "~0.4.4"
 
 expo-notifications@~0.13.3:
   version "0.13.3"
