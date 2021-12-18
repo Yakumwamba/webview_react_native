@@ -10,6 +10,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#00FF85"
     },
+    "plugins": [
+      "expo-notifications"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
