@@ -14,6 +14,7 @@
     "@react-native-community/netinfo": "6.0.2",
     "@react-navigation/native": "^5.5.0",
     "@react-navigation/stack": "^5.4.1",
+    "clientjs": "^0.2.1",
     "expo": "~43.0.2",
     "expo-background-fetch": "~10.0.3",
     "expo-battery": "~6.0.3",
@@ -36,7 +37,8 @@
     "react-native-screens": "~2.2.0",
     "react-native-svg": "12.1.1",
     "react-native-web": "0.17.1",
-    "react-native-webview": "11.0.0"
+    "react-native-webview": "11.0.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
